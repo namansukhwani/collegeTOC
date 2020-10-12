@@ -1,0 +1,3 @@
+str = input("Enter a String:")
+print("Count of 0's:", str.count("0"))
+print("Count of 1's:", str.count("1"))

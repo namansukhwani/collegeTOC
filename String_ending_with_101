@@ -1,0 +1,8 @@
+txt = input("Enter the Regular Expression: ")
+
+if len(txt) < 3:
+    print("Rejected")
+elif txt[-1] == "1" and txt[-2] == "0" and txt[-3] == "1":
+    print("Accepted")
+else:
+    print("Rejected")

@@ -1,0 +1,13 @@
+txt=input("Enter String: ")
+flag = 0
+for i in range(len(txt)-2):
+    if (txt[i] == '0' and txt[i+1] == '0' and txt[i+2] == '0'):
+        flag=1
+        break
+    elif (txt[i] == '1' and txt[i+1] == '1' and txt[i+2] == '1'):
+        flag=1
+        break
+if flag == 1:
+    print("Accepted")
+else:
+    print("Rejected")
